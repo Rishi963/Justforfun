@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Calculator</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <label for="num1">Number 1:</label>
+        <input type="number" name="num1" id="num1">
+        <br>
+        <label for="num2">Number 2:</label>
+        <input type="number" name="num2" id="num2">
+        <br>
+        <input type="submit" value="Add">
+    </form>
+</body>
+</html>
